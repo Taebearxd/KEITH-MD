@@ -9,7 +9,7 @@ let txt = `You have been tagged by ${m.pushName}.
    
   Message:- ${text ? text : 'No Message!'}\n\n`; 
                  for (let mem of participants) { 
-                 txt += `📧 @${mem.id.split('@')[0]}\n`; 
+                 txt += `—🪼⃝̸̶֮░ @${mem.id.split('@')[0]}\n`; 
                  } 
                  client.sendMessage(m.chat, { text: txt, mentions: participants.map(a => a.id) }, { quoted: m }); 
 
