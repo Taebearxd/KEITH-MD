@@ -6,10 +6,10 @@ You don't have to set this if you deploy using heroku because you can simply set
 const session = process.env.SESSION || '';
 
 const prefix = process.env.PREFIX || '.';
-const mycode = process.env.CODE || "254";
-const author = process.env.STICKER_AUTHOR || 'Keith';
-const packname = process.env.PACKNAME || 'keith';
-const dev = process.env.DEV || '254748387615';
+const mycode = process.env.CODE || "91";
+const author = process.env.STICKER_AUTHOR || '⎯⎯ּ︭   🧸̼᪲ 𝐍𝐎𝐈𝐑  ❜❜ ᪶';
+const packname = process.env.PACKNAME || '(⁠ ⁠◜⁠‿⁠◝⁠ ⁠)⁠♡';
+const dev = process.env.DEV || '917439317360';
 const DevKeith = dev.split(",");
 const botname = process.env.BOTNAME || 'KEITH-MD';
 const mode = process.env.MODE || 'public';
@@ -18,9 +18,9 @@ const antionce = process.env.ANTIVIEWONCE || 'true';
 const sessionName = "session";
 const presence = process.env.WA_PRESENCE || 'online';
 
-const antitag = process.env.ANTITAG || 'true';
-const antibot = process.env.ANTIBOT || 'true';
-const anticall = process.env.ANTICALL || 'true';
+const antitag = process.env.ANTITAG || 'false';
+const antibot = process.env.ANTIBOT || 'false';
+const anticall = process.env.ANTICALL || 'false';
 const antidelete = process.env.ANTIDELETE || 'true';
 const autoview = process.env.AUTOVIEW_STATUS || 'true';
 const autolike = process.env.AUTOLIKE_STATUS || 'true';
